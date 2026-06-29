@@ -77,3 +77,14 @@
 .custom-tag.mesh {
   background-color: navy;
 }
+.custom-tag.poses {
+  background-color: steelblue;
+}
+.custom-tag.hdri {
+  background-color: darkgoldenrod;
+}
+
+// Make regular highlight BG less intense
+.highlight {
+  background: #0d111740;
+}

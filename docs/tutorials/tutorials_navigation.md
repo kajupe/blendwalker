@@ -5,6 +5,7 @@ layout: default
 nav_order: 2
 ---
 
+# Finding Good Tutorials
 Don't just go to the donut, that guy is kinda cringe.
 
 Try to find ones that don't just go "do x then y" but actually explain why.

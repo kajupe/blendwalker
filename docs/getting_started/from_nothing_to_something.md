@@ -85,7 +85,7 @@ Now you have all you need to get started with importing your character! How does
 
 Now, in Blender, create a new project. Delete the default cube by left clicking it and pressing "X".
 
-With your cursor hovering over the 3d Viewport (the main work window), hit the "N" Key to open up the menu to the right!
+With your cursor hovering over the 3D Viewport (the main work window), hit the "N" Key to open up the menu to the right!
 
 You should see a menu like so. Navigate to the "AetherBlend" menu as shown here. Select `Import Character` and select the .gltf file you just exported from the game!
 

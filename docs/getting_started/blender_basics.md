@@ -26,12 +26,15 @@ To start here is a VITAL note: YOUR CURSOR'S LOCATION ON THE SCREEN MATTERS.
 
 For example, pressing "N" can mean and do different things if your cursor is hovering over different sections of the screen, so keep that in mind!
 
-Now for this section, let's figure out how to navigate the VIEWPORT: the main screen where you can see your model!
+Now for this section, let's figure out how to navigate the VIEWPORT; the main screen where you can see your model!
 
-1. Zoom - Mouse wheel Scroll 
-2. Hold Middle Mouse Button + Drag - Rotate around focus point
-3. Shift+Middle Mouse Button + Drag - Pan the camera
-4. Focusing on an Object - Numpad .
+* Zoom ⇒ Mouse Wheel Scroll 
+* Rotate around focus point ⇒ Hold Middle Mouse Button + Drag
+* Pan the camera ⇒ Shift + Middle Mouse Button + Drag
+* Frame the Selected object ⇒ Numpad .
+
+{: .highlight }
+Keybinds and navigation methods can be adjusted in `Edit > Preferences > Keymap`. You might want to change keybinds like the Frame Selected one since it's one that's very handy to have easily accessible, especially if you don't have a Numpad.
 
 ## (01 VIDEO HERE)
 
