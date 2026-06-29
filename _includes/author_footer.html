@@ -9,7 +9,9 @@
             <img src="{{ author.avatar }}" alt="{{ author.name }}" class="author-profile-pic">
             <span class="author-info">
                 <span class="author-name">{{ author.name }}</span>
+                {% if author_item.role %}
                 <span class="author-role">{{ author_item.role }}</span>
+                {% endif %}
             </span>
         </a>
       </div>
