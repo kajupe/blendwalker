@@ -59,14 +59,14 @@ Wow, what a line.
 
 The simplest way to add an image is with markdown like this:
 
-![Alt Text Goes Here](/assets/branding/header.png)
+![Alt Text Goes Here](../assets/branding/header.png)
 
 You can also use html, but you might need to specify the maximum allowed width so it doesn't clip outside of the page:
 
-<img src="/assets/branding/header.png" alt="Alt Text Goes Here" style="max-width:100%;">
+<img src="../assets/branding/header.png" alt="Alt Text Goes Here" style="max-width:100%;">
 
 Videos have to be added with html. The `controls` tag shows the controls, `loop` makes it loop, and `autoplay` makes it autoplay (as long as there's no audio track, or the video is `muted` by default). This video has all those tags.
-<video src="/assets/misc/dingus_example_video.webm" type="video/webm" controls autoplay muted loop style="max-width:100%;"></video>
+<video src="../assets/misc/dingus_example_video.webm" type="video/webm" controls autoplay muted loop style="max-width:100%;"></video>
 
 
 <!-- AUTHORS -->
@@ -88,3 +88,7 @@ Here's how to link to a [specific header](#text)
 Here's how to link to a [specific header on another page](./contributing#make-something)
 
 [rickroll]: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+Please note that links to assets (not websites) have to be relative to the current file.  
+For example, to link to a page next to this one in the folder structure like `contributing.md`, the link should start with `./` to designate it's in the same folder as this file.  
+To link to a page in the assets folder, use `../assets/`, for example `../assets/branding/header.png`. Going from this file in the `docs` directory, `../` takes us out into the root `blender-xiv` folder, then from there we can navigate like usual. Into the assets folder, then the branding folder, then specifying the file.
