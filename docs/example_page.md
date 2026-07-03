@@ -66,7 +66,7 @@ You can also use html, but you might need to specify the maximum allowed width s
 <img src="/assets/branding/header.png" alt="Alt Text Goes Here" style="max-width:100%;">
 
 Videos have to be added with html. The `controls` tag shows the controls, `loop` makes it loop, and `autoplay` makes it autoplay (as long as there's no audio track, or the video is `muted` by default). This video has all those tags.
-<video src="/assets/misc/dingus_example_video.webm" controls autoplay muted loop style="max-width:100%;"></video>
+<video src="/assets/misc/dingus_example_video.webm" type="video/webm" controls autoplay muted loop style="max-width:100%;"></video>
 
 
 <!-- AUTHORS -->
@@ -75,7 +75,7 @@ Videos have to be added with html. The `controls` tag shows the controls, `loop`
 Each page can have authors listed from the `authors.yaml` database located in `blender-xiv/_data`. You add them at the top of each page, and then they'll show up at the bottom by default. Each author must be specified with a unique `key`, and can optionally have a `role` to further clarify what they worked on.  
 You can also use the Authors section as something else, like re-naming it by specifying an `authors_title`.  
 `authors_id` sets the ID of the `<div>` element the authors are in, so you can make [links that jump directly to that section](#cool-authors).  
-Clicking on an Author will take you to their entry in the [About Us](/docs/about_us) page.
+Clicking on an Author will take you to their entry in the [About Us](./about_us) page.
 
 
 <!-- LINKS -->
@@ -85,6 +85,6 @@ Links are pretty neat and really easy.
 [Here's a link to an external website](https://http.cat/)  
 If you want to re-use [rickroll] the same link in [rickroll] multiple places you [rickroll] can do it like [rickroll] this!  
 Here's how to link to a [specific header](#text)  
-Here's how to link to a [specific header on another page](/docs/contributing#make-something)
+Here's how to link to a [specific header on another page](./contributing#make-something)
 
 [rickroll]: https://www.youtube.com/watch?v=dQw4w9WgXcQ
