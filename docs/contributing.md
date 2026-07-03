@@ -53,9 +53,9 @@ You should name files using underscores_instead_of_spaces_like_this, and the nam
 * **You can be Fancy**  
 This page is based on [Just The Docs] and lets us do a lot of fun things if we want, outside of regular markdown documents. You can write whatever html and css and javascript you want really. If you have an idea for something you want laid out in a specific way, it's probably possible, and those languages have a lot of resources for learning. The [Just The Docs] page also has a lot of information on how to make things.    
 * **Look at the Example Page**  
-There's an unlisted page you can use as a reference for a bunch of stuff. You can go to it [here](/docs/example_page), but it's most useful to look at as a markdown file, which you can do in the [GitHub repo](https://github.com/kajupe/blender-xiv/blob/main/docs/example_page.md)  
+There's an unlisted page you can use as a reference for a bunch of stuff. You can go to it [here](../docs/example_page), but it's most useful to look at as a markdown file, which you can do in the [GitHub repo](https://github.com/kajupe/blender-xiv/blob/main/docs/example_page.md)  
 * **Add yourself as an Author**  
-If you've made something, we want people to know that it was you who did it! You should add yourself as an Author to your page. There's a guide for that in the [example page](/docs/example_page#authors).
+If you've made something, we want people to know that it was you who did it! You should add yourself as an Author to your page. There's a guide for that in the [example page](../docs/example_page#authors).
 
 ### Submit your Changes
 Once you're happy with your contribution, give it a Summary / Title in GitHub Desktop as well as a Description. For example the Summary could be "Added a Guide about Mocap Retargetting" and the Description could be anything you want really, relevant information about your contribution. It's mostly for you. Then click `Commit to main`. Then you can click `Push origin` in the new big blue button on the right, to upload it to GitHub.  
