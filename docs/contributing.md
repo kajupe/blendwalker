@@ -44,10 +44,18 @@ In GitHub Desktop, add a new repository by cloning [the blender-xiv repository].
 Once in the folder, right click on some empty space and click `Open in Terminal`. Then, assuming you have Ruby installed correctly, run `bundle install`.  
 That should install a bunch of stuff. Then run `bundle exec jekyll serve` to host the page locally. It will say which ip it's being hosted on, by default it should be [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Then any time you edit a file, such as adding or editing a page located in the `docs` directory, just reload the page and you'll see the changes.
 
-### Make Something (WIP)
-Make a change, add a guide, whatever. Details in [Just The Docs]  
-Main pages should be called index.md  
-Place an author section at the bottom (Not made yet)  
+### Make Something
+Some things to keep in mind when you make a contribution:  
+* **Optimize Files**  
+Your images should ***always*** be smaller than a megabyte, and usually way smaller than that! Longer videos are the only thing that should ever end up over a megabyte, but try to compress as much as possible while still keeping images legible. Try using formats like .webp and .jpg, those tend to be pretty small. For videos, try to use AV1 or H.265 encoding, with Opus as the audio codec. As long as it's small, it's fine.  
+* **Name Files Well**  
+You should name files using underscores_instead_of_spaces_like_this, and the names should be descriptive. Ideally they should also be prefixed with something that relate to where they end up. For example if you're adding five images for your hypothetical guide on using mocap data, prefix them with "mocap_yourname", so the full name is something like "mocap_yourname_description". That way they'll end up next to each other in the file order!  
+* **You can be Fancy**  
+This page is based on [Just The Docs] and lets us do a lot of fun things if we want, outside of regular markdown documents. You can write whatever html and css and javascript you want really. If you have an idea for something you want laid out in a specific way, it's probably possible, and those languages have a lot of resources for learning. The [Just The Docs] page also has a lot of information on how to make things.    
+* **Look at the Example Page**  
+There's an unlisted page you can use as a reference for a bunch of stuff. You can go to it [here](/docs/example_page), but it's most useful to look at as a markdown file, which you can do in the [GitHub repo](https://github.com/kajupe/blender-xiv/blob/main/docs/example_page.md)  
+* **Add yourself as an Author**  
+If you've made something, we want people to know that it was you who did it! You should add yourself as an Author to your page. There's a guide for that in the [example page](/docs/example_page#authors).
 
 ### Submit your Changes
 Once you're happy with your contribution, give it a Summary / Title in GitHub Desktop as well as a Description. For example the Summary could be "Added a Guide about Mocap Retargetting" and the Description could be anything you want really, relevant information about your contribution. It's mostly for you. Then click `Commit to main`. Then you can click `Push origin` in the new big blue button on the right, to upload it to GitHub.  
