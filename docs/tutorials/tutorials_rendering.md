@@ -1,6 +1,6 @@
 ---
-title: Rendering Tutorials
-parent: Tutorials
+title: Rendering
+parent: Tutorials / Guides
 layout: default
 nav_order: 50
 ---

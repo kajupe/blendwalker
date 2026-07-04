@@ -1,6 +1,6 @@
 ---
 title: Finding Good Tutorials
-parent: Tutorials
+parent: Tutorials / Guides
 layout: default
 nav_order: 2
 ---

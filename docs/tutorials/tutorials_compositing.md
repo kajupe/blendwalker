@@ -1,6 +1,6 @@
 ---
-title: Compositing Tutorials
-parent: Tutorials
+title: Compositing
+parent: Tutorials / Guides
 layout: default
 nav_order: 60
 has_toc: false

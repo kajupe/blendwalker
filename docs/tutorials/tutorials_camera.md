@@ -1,6 +1,6 @@
 ---
-title: Camera & Framing Tutorials
-parent: Tutorials
+title: Camera & Framing
+parent: Tutorials / Guides
 layout: default
 nav_order: 20
 ---

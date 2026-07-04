@@ -1,6 +1,6 @@
 ---
-title: Animation Tutorials
-parent: Tutorials
+title: Animation
+parent: Tutorials / Guides
 layout: default
 nav_order: 30
 ---
