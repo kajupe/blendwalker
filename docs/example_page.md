@@ -20,11 +20,15 @@ You won't find every single solution to your problems here, but there will be a 
 Be sure to look at the page in markdown too, not just on the web. See how the markdown creates what's visible on the actual page.  
 Anyway, let's get to it.
 
+# Table of Contents
+{: .no_toc }
+
 - TOC
 {:toc}
 <!-- Here's how to add a comment -->
 <!--
 It can span multiple lines! Anything between those two tags will be ignored, and is only for taking notes essentially.
+
 That thing up there above these comments btw is how to add a table of contents (TOC)
 It automatically generates a list of all the headers in the page and makes links to them.
 You'll notice that the first header (#Example Page) has a little tag below it { .no_toc }, which excludes it from the toc.
@@ -61,9 +65,11 @@ The simplest way to add an image is with markdown like this:
 
 ![Alt Text Goes Here](../assets/branding/header.png)
 
-You can also use html, but you might need to specify the maximum allowed width so it doesn't clip outside of the page:
+You can also use html, but you might need to specify the maximum allowed width so it doesn't clip outside of the page if the base size is too big:
 
-<img src="../assets/branding/header.png" alt="Alt Text Goes Here" style="max-width:100%;">
+<img src="../assets/branding/header.png" alt="Alt Text Goes Here" style="max-width:100%;" class="no-lightbox">
+
+Images will by default be clickable to open in what's called a lightbox, no matter which method you add them with. If you want this to NOT be the case, use the html method and add the class `no-lightbox`, as with the example above.
 
 Videos have to be added with html. The `controls` tag shows the controls, `loop` makes it loop, and `autoplay` makes it autoplay (as long as there's no audio track, or the video is `muted` by default). This video has all those tags.
 <video src="../assets/misc/dingus_example_video.webm" type="video/webm" controls autoplay muted loop style="max-width:100%;"></video>
