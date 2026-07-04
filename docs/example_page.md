@@ -35,6 +35,19 @@ You'll notice that the first header (#Example Page) has a little tag below it { 
 -->
 
 
+<!--PAGES-->
+
+# Pages
+At the top of each page you can specify a bunch of information about a page. This is all that matters when it comes to where the page is located in the ancestry, meaning which page it's a child-page of, etc. Every page needs a section like this.  
+You should specify:  
+* **title:** The name of the page, which can differ from the file name itself.
+* **parent:** The title of the page this page should be a child of. If this isn't set the page will be listed as a main page next to pages like About Us and Getting Started. You'll usually want to set this.
+* **grand_parent:** If your page's parent title is used in multiple places (for example, there are three pages named "Compositing" under Glossary, Workflow and Tutorials) you'll want to specify which of these your page should be parented to by setting the grand_parent to the title of the page the parent is parented to. For example, if you're adding a page under `Tutorials & Guides / Compositing`, set the grand_parent to `Tutorials & Guides`.
+* **layout:** Just set it to `default`. The alternative is `minimal`, which omits the side-bar to the left.
+* **nav_order:** Pages with a higher value are sorted after pages with a lower value when they are siblings. Try to set this to a multiple of 10, so that if another page needs to be added between yours and the one beside it, there's still plenty of room before we need to change the nav_order value.
+* **authors:** Read about Authors [further down this page](#authors).
+
+
 <!--TEXT-->
 
 # Text
