@@ -47,6 +47,8 @@ You should specify:
 * **nav_order:** Pages with a higher value are sorted after pages with a lower value when they are siblings. Try to set this to a multiple of 10, so that if another page needs to be added between yours and the one beside it, there's still plenty of room before we need to change the nav_order value.
 * **authors:** Read about Authors [further down this page](#authors).
 
+There are a lot of things beside that which you *could* specify, but those are the most important ones. For more details read the [Just The Docs] documentation.
+
 
 <!--TEXT-->
 
@@ -111,3 +113,7 @@ Here's how to link to a [specific header on another page](./contributing#make-so
 Please note that links to assets (not websites) have to be relative to the current file.  
 For example, to link to a page next to this one in the folder structure like `contributing.md`, the link should start with `./` to designate it's in the same folder as this file.  
 To link to a page in the assets folder, use `../assets/`, for example `../assets/branding/header.png`. Going from this file in the `docs` directory, `../` takes us out into the root `blender-xiv` folder, then from there we can navigate like usual. Into the assets folder, then the branding folder, then specifying the file.
+
+
+
+[Just The Docs]: https://just-the-docs.github.io/just-the-docs/
