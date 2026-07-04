@@ -13,6 +13,7 @@ example: # This is your actual name, or your "key". This HAS to be unique from a
 
 
 ##### ACTUAL AUTHORS #####
+# Once you have added yourself here, remember to also add yourself in about_us.md with the role Contributor (or Project Manager if you actually are one)
 
 kaj:
   name: "Kaj"
