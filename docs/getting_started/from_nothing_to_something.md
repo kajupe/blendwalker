@@ -7,7 +7,7 @@ authors:
   - key: fioh
     role: "Guide-Writer"
   - key: kaj
-    role: "Editing"
+    role: "Editor"
 ---
 
 # From Nothing to Something
@@ -132,7 +132,7 @@ Bringing a character to life is what the animation art form is all about! With s
 
 to this!
 
-<video width="100%" height="auto" controls>
+<video width="100%" height="auto" controls muted>
   <source src="assets/Fioh_Character_Select.mp4" type="video/mp4">
 </video>
 

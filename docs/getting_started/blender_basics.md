@@ -7,7 +7,7 @@ authors:
   - key: fioh
     role: "Guide-Writer"
   - key: kaj
-    role: "Editing"
+    role: "Editor"
 ---
 
 # Blender Basics
@@ -121,7 +121,7 @@ Next, we are going even further beyond!
 4. Joining Objects (Ctrl+J)
 5. Dangers of moving models without the rig while it is still attached to the rig
 6. Attaching a model to a new rig
-7. Consider, if you are making a video using an FF14 model, an FF14 Environment and an FF14 Animation, why use Blender? Is it easier than in-game?
+7. Consider, if you are making a video using an FF14 model, an FF14 Environment and an FF14 Animation, why use Blender? Is it easier than in-game? Does it look better?
 
 ## (08 Video)
 
