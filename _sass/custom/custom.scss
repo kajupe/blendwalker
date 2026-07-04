@@ -6,9 +6,32 @@
   background-color: red;
 }
 
+/* ########## TWEAKS ########## */
+
+// Make regular highlight BG less intense
+.highlight {
+  background: #0d111740;
+}
+
+// Make list items be spaced a bit farther apart for better legibility
+.main-content li {
+  margin: 0.5rem 0;
+}
+
+// Make the alt-text window in lightboxes have a dark background and be offset slightly from the image itself
+.gslide-description {
+  background: #111 !important;
+  margin-top: 1rem !important;
+}
+
+// Make text in main content justified (depending on the html element it's in)
+.main-content p, .main-content li {
+  text-align: justify;
+}
 
 
-/* ########## Author Callout ########## */
+
+/* ########## AUTHOR STUFF ########## */
 .author-callout {
   display: flex !important; /* Force flexbox layout */
   align-items: center;
@@ -125,21 +148,3 @@
 
 
 
-// Make regular highlight BG less intense
-.highlight {
-  background: #0d111740;
-}
-
-
-// Make list items be spaced a bit farther apart for better legibility
-li {
-  margin: 0.5rem 0;
-}
-
-
-
-// Make the alt-text window in lightboxes have a dark background and be offset slightly from the image itself
-.gslide-description {
-  background: #111 !important;
-  margin-top: 1rem !important;
-}
