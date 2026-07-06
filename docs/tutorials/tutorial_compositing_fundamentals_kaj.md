@@ -14,7 +14,7 @@ This tutorial will cover the fundamentals of compositing, regardless of the prog
 {: .fs-6 .fw-300 }
 
 - TOC
-{:toc}
+{:toc} 
 
 ---
 
