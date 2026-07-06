@@ -1,11 +1,11 @@
 <br>
 <p align="center">
-<img src="assets/branding/header.png" alt="Blender XIV Logo" height="60rem">
+<img src="assets/branding/header.webp" alt="Blendwalker Logo" height="60rem">
 </p>
 
-# Blender XIV
+# Blendwalker
 
-This is the GitHub repository hosting the actual page, which you can visit here: [Blender XIV](https://kajupe.github.io/blender-xiv/)
+This is the GitHub repository hosting the actual page, which you can visit here: [Blendwalker](https://kajupe.github.io/blendwalker/)
 
 <br>
 

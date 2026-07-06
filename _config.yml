@@ -1,10 +1,10 @@
-title: Blender XIV
+title: Blendwalker
 description: A collection of guides and resources for making FFXIV-based projects in Blender
 theme: just-the-docs
 color_scheme: dark
 
-url: https://kajupe.github.io/blender-xiv
-logo: "/assets/branding/header.png"
+url: https://kajupe.github.io/blendwalker
+logo: "/assets/branding/header.webp"
 favicon_ico: "/assets/branding/favicon.ico"
 
 aux_links:

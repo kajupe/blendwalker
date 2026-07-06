@@ -39,7 +39,7 @@ If you want to make larger changes you may want to have a local copy of the page
 For a local copy of the page you'll need to clone the repository. You'll use [GitHub Desktop] to do this. Then to actually run it you need [Ruby] (which is a programming language) (install it and the develoment kit).
 
 ### Set-up
-In GitHub Desktop, add a new repository by cloning [the blender-xiv repository]. This will copy the entire project into a folder on your computer, by default in a `User > Documents > GitHub` folder. If you go to `Repository > Show in Explorer` it will open the folder.
+In GitHub Desktop, add a new repository by cloning [the blendwalker repository]. This will copy the entire project into a folder on your computer, by default in a `User > Documents > GitHub` folder. If you go to `Repository > Show in Explorer` it will open the folder.
 
 Once in the folder, right click on some empty space and click `Open in Terminal`. Then, assuming you have Ruby installed correctly, run `bundle install`.  
 That should install a bunch of stuff. Then run `bundle exec jekyll serve` to host the page locally. It will say which ip it's being hosted on, by default it should be [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Then any time you edit a file, such as adding or editing a page located in the `docs` directory, just reload the page and you'll see the changes.
@@ -53,17 +53,17 @@ You should name files using underscores_instead_of_spaces_like_this, and the nam
 * **You can be Fancy**  
 This page is based on [Just The Docs] and lets us do a lot of fun things if we want, outside of regular markdown documents. You can write whatever html and css and javascript you want really. If you have an idea for something you want laid out in a specific way, it's probably possible, and those languages have a lot of resources for learning. The [Just The Docs] page also has a lot of information on how to make things.    
 * **Look at the Example Page**  
-There's an unlisted page you can use as a reference for a bunch of stuff. You can go to it [here](./example_page), but it's most useful to look at as a markdown file, which you can do in the [GitHub repo](https://github.com/kajupe/blender-xiv/blob/main/docs/example_page.md)  
+There's an unlisted page you can use as a reference for a bunch of stuff. You can go to it [here](./example_page), but it's most useful to look at as a markdown file, which you can do in the [GitHub repo](https://github.com/kajupe/blendwalker/blob/main/docs/example_page.md)  
 * **Add yourself as an Author**  
 If you've made something, we want people to know that it was you who did it! You should add yourself as an Author to your page. There's a guide for that in the [example page](./example_page#authors).
 
 ### Submit your Changes
 Once you're happy with your contribution, give it a Summary / Title in GitHub Desktop as well as a Description. For example the Summary could be "Added a Guide about Mocap Retargetting" and the Description could be anything you want really, relevant information about your contribution. It's mostly for you. Then click `Commit to main`. Then you can click `Push origin` in the new big blue button on the right, to upload it to GitHub.  
-By this point you have an entirely separate version of the page with your changes. Now you just need to request for us to look at it and add it to the public page with a pull request. To do this, go to your repository on GitHub. You can see all your repositories at `https://github.com/your-username?tab=repositories`. Near the top of that page it should say "This branch is X commits ahead of kajupe/blender-xiv:main". To the right of that is a button that says `Contribute`. Click that, then `Open pull request`. Give it a title and description here as well, and click `Create pull request`. We will then be notified that you want to submit a change and can either chose to accept it or request that you make changes to it first.
+By this point you have an entirely separate version of the page with your changes. Now you just need to request for us to look at it and add it to the public page with a pull request. To do this, go to your repository on GitHub. You can see all your repositories at `https://github.com/your-username?tab=repositories`. Near the top of that page it should say "This branch is X commits ahead of kajupe/blendwalker:main". To the right of that is a button that says `Contribute`. Click that, then `Open pull request`. Give it a title and description here as well, and click `Create pull request`. We will then be notified that you want to submit a change and can either chose to accept it or request that you make changes to it first.
 
 
-[the blender-xiv repository]: https://github.com/kajupe/blender-xiv/
-[feature request on github]: https://github.com/kajupe/blender-xiv/issues
+[the blendwalker repository]: https://github.com/kajupe/blendwalker/
+[feature request on github]: https://github.com/kajupe/blendwalker/issues
 [project manager]: #project-managers
 [GitHub Desktop]: https://desktop.github.com/download/
 [Ruby]: https://rubyinstaller.org/

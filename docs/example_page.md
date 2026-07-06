@@ -78,11 +78,11 @@ Wow, what a line.
 
 The simplest way to add an image is with markdown like this:
 
-![Alt Text Goes Here](../assets/branding/header.png)
+![Alt Text Goes Here](../assets/branding/header.webp)
 
 You can also use html, but you might need to specify the maximum allowed width so it doesn't clip outside of the page if the base size is too big:
 
-<img src="../assets/branding/header.png" alt="Alt Text Goes Here" style="max-width:100%;" class="no-lightbox">
+<img src="../assets/branding/header.webp" alt="Alt Text Goes Here" style="max-width:100%;" class="no-lightbox">
 
 Images will by default be clickable to open in what's called a lightbox, no matter which method you add them with. If you want this to NOT be the case, use the html method and add the class `no-lightbox`, as with the example above.
 
@@ -93,7 +93,7 @@ Videos have to be added with html. The `controls` tag shows the controls, `loop`
 <!-- AUTHORS -->
 
 # Authors
-Each page can have authors listed from the `authors.yaml` database located in `blender-xiv/_data`. You add them at the top of each page, and then they'll show up at the bottom by default. Each author must be specified with a unique `key`, and can optionally have a `role` to further clarify what they worked on.  
+Each page can have authors listed from the `authors.yaml` database located in `blendwalker/_data`. You add them at the top of each page, and then they'll show up at the bottom by default. Each author must be specified with a unique `key`, and can optionally have a `role` to further clarify what they worked on.  
 You can also use the Authors section as something else, like re-naming it by specifying an `authors_title`.  
 `authors_id` sets the ID of the `<div>` element the authors are in, so you can make [links that jump directly to that section](#cool-authors).  
 Clicking on an Author will take you to their entry in the [About Us](./about_us) page.
@@ -112,7 +112,7 @@ Here's how to link to a [specific header on another page](./contributing#make-so
 
 Please note that links to assets (not websites) have to be relative to the current file.  
 For example, to link to a page next to this one in the folder structure like `contributing.md`, the link should start with `./` to designate it's in the same folder as this file.  
-To link to a page in the assets folder, use `../assets/`, for example `../assets/branding/header.png`. Going from this file in the `docs` directory, `../` takes us out into the root `blender-xiv` folder, then from there we can navigate like usual. Into the assets folder, then the branding folder, then specifying the file.
+To link to a page in the assets folder, use `../assets/`, for example `../assets/branding/header.webp`. Going from this file in the `docs` directory, `../` takes us out into the root `blendwalker` folder, then from there we can navigate like usual. Into the assets folder, then the branding folder, then specifying the file.
 
 
 
