@@ -49,6 +49,8 @@ Fusion is Blackmagic's response to Nuke, built into the popular video editing so
 * **After Effects**  
 Of all the options, I recommend After Effects the least. But, it's an option, so it goes on the list. Unlike all the other options on the list, After Effects is layer-based rather than node-based. This does make it easier for beginners to grasp, but ask anyone who's learned both layers and nodes which they prefer and almost every single one of them will say nodes. It's also made by Adobe (which is never a good thing, and means it's not free[^just-pirate-it]) and it eats more RAM that it has any right to. You can definitely make cool compositing things in After Effects, but if this is the tool you choose to learn you are severely limiting your options.
 
+---
+
 [^dont-pirate-it]:
     So you might be thinking "Ok I'll just pirate it then, that's a workaround!" Do not do that. The Foundry (who make Nuke) is like the only company in existence to actually go after people who pirate their software, and there is a very real possibility that they find out and force you to pay for a full licence. Just use the free version, or if you get really into compositing like I have and use Nuke almost daily, there's an Indie version for ~€500 a year.
 
