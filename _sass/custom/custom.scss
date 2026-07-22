@@ -130,6 +130,7 @@
   border-radius:1rem;
   font-size: smaller;
   font-weight: 650;
+  background-color: gray;
 }
 .custom-tag.unique {
   background-color: darkviolet;
@@ -148,6 +149,12 @@
 }
 .custom-tag.hdri {
   background-color: darkgoldenrod;
+}
+.custom-tag.environment {
+  background-color: darkgreen;
+}
+.custom-tag.character {
+  background-color: darkcyan;
 }
 
 
