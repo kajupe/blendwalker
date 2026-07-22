@@ -106,11 +106,12 @@ Links are pretty neat and really easy.
 [Here's a link to an external website](https://http.cat/)  
 If you want to re-use [rickroll] the same link in [rickroll] multiple places you [rickroll] can do it like [rickroll] this!  
 Here's how to link to a [specific header](#text)  
-Here's how to link to a [specific header on another page](./contributing#make-something)
+Here's how to link to a [specific header on another page](./contributing#make-something)  
+It's important to note that you shouldn't include the file extension of pages you link to, because while they might me `.md` now they'll be converted to `.html` later.
 
 [rickroll]: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
-Please note that links to assets (not websites) have to be relative to the current file.  
+Please also note that links to assets (not websites) have to be relative to the current file.  
 For example, to link to a page next to this one in the folder structure like `contributing.md`, the link should start with `./` to designate it's in the same folder as this file.  
 To link to a page in the assets folder, use `../assets/`, for example `../assets/branding/header.webp`. Going from this file in the `docs` directory, `../` takes us out into the root `blendwalker` folder, then from there we can navigate like usual. Into the assets folder, then the branding folder, then specifying the file.
 
