@@ -80,6 +80,7 @@ Wow, what a line.
 The simplest way to add an image is with markdown like this:
 
 ![Alt Text Goes Here](../assets/branding/header.webp)
+<p class="image-credit">BLENDWALKER LOGO BY <a href="http://www.kaj.blue">@KAJ.BLUE</a></p>
 
 You can also use html, but you might need to specify the maximum allowed width so it doesn't clip outside of the page if the base size is too big:
 
@@ -108,7 +109,8 @@ Links are pretty neat and really easy.
 If you want to re-use [rickroll] the same link in [rickroll] multiple places you [rickroll] can do it like [rickroll] this!  
 Here's how to link to a [specific header](#text)  
 Here's how to link to a [specific header on another page](./contributing#make-something)  
-It's important to note that you shouldn't include the file extension of pages you link to, because while they might me `.md` now they'll be converted to `.html` later.
+It's important to note that you shouldn't include the file extension of pages you link to, because while they might me `.md` now they'll be converted to `.html` later.  
+Links in HTML are made by wrapping your text in an `<a>` element and setting the `href` tag like so: <a href="https://kajupe.github.io/blendwalker/">Here's a link!</a>
 
 [rickroll]: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 

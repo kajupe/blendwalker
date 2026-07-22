@@ -20,12 +20,14 @@ Here's an example of what you can accomplish with compositing:
     <img src="assets/compositing_example_01_nocomp.jpg" style="min-width:0;">
     <img src="assets/compositing_example_01_comped.jpg" style="min-width:0;">
 </div>
+<p class="image-credit">RENDERS BY <a href="http://www.kaj.blue">@KAJ.BLUE</a></p>
 
 And for a more drastic example:
 <div width="100%" style="display:flex; gap:1rem;">
     <img src="assets/compositing_example_02_nocomp.jpg" style="min-width:0;">
     <img src="assets/compositing_example_02_comped.jpg" style="min-width:0;">
 </div>
+<p class="image-credit">RENDERS BY <a href="http://www.kaj.blue">@KAJ.BLUE</a></p>
 
 <br>
 As you can probably tell it's pretty powerful, but is it difficult?  
@@ -36,6 +38,7 @@ Here's an example of a relatively simple compositing setup in Blender that still
     <img src="assets/compositing_example_simple_nodes.jpg" style="flex:2 1 0%; width:0; height:auto;">
     <video src="assets/compositing_example_simple.webm" type="video/webm" autoplay loop style="flex:1 1 0%; width:0; height:auto;"></video>
 </div>
+<p class="image-credit">RENDER BY <a href="http://www.kaj.blue">@KAJ.BLUE</a></p>
 
 
 ## How do?

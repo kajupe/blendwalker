@@ -10,7 +10,14 @@ authors_id: project-managers
 ---
 
 # Contributing
+{: .fs-9 .no_toc }
 This page is built on community knowledge, and will continue to grow. Do you have anything to share with your fellow creators?
+{: .fs-6 .fw-300 }
+
+- TOC
+{:toc} 
+
+---
 
 ## Quick Contribution
 If you want to very quickly just write a guide or suggest a resource and don't want to go through the trouble of learning how to work with Github or build the website locally, don't worry! You can send your guide or suggestion as a [feature request on github] or directly to a [project manager] and it will be looked at. We can't guarantee that it will be added, but the odds are much higher if you follow these guidelines:
@@ -31,6 +38,8 @@ Try to have good grammar and flow in your writing. Add headers and line-breaks. 
 One thing to note about line breaks when writing markdown is that one regular line break does nothing. An empty line between two lines starts a new paragraph. A regular line break can be done by adding two spaces at the end of the previous line.
 * **Ensure it's informational and uses polite language.**  
 It doesn't have to be super formal but don't write something like "Yeah, you'd be pretty stupid to not know this already." or whatever. A guide should provide clear information.
+
+---
 
 ## Detailed Contribution
 If you want to make larger changes you may want to have a local copy of the page to work on. This would let you see changes on the page before submitting them to the public. This guide on how to do all that is aimed at newcommers to git, if you're more experienced you'll notice that this isn't the only way of doing it, but it's what we'd suggest new users do.
@@ -60,6 +69,13 @@ If you've made something, we want people to know that it was you who did it! You
 ### Submit your Changes
 Once you're happy with your contribution, give it a Summary / Title in GitHub Desktop as well as a Description. For example the Summary could be "Added a Guide about Mocap Retargetting" and the Description could be anything you want really, relevant information about your contribution. It's mostly for you. Then click `Commit to main`. Then you can click `Push origin` in the new big blue button on the right, to upload it to GitHub.  
 By this point you have an entirely separate version of the page with your changes. Now you just need to request for us to look at it and add it to the public page with a pull request. To do this, go to your repository on GitHub. You can see all your repositories at `https://github.com/your-username?tab=repositories`. Near the top of that page it should say "This branch is X commits ahead of kajupe/blendwalker:main". To the right of that is a button that says `Contribute`. Click that, then `Open pull request`. Give it a title and description here as well, and click `Create pull request`. We will then be notified that you want to submit a change and can either chose to accept it or request that you make changes to it first.
+
+---
+
+## For All Contributions
+Remember that if you use something that someone else has made, for example to show a render someone made as an example you MUST have the creator's permission and you MUST credit them when using it on the page. Yes, even if you are the creator, credit yourself.  
+If it's just a quick little example you made and you don't want to bloat the page, you don't have to credit yourself for that.
+An example of how to credit an image can be found on the [example page](./example_page#images--videos).
 
 
 [the blendwalker repository]: https://github.com/kajupe/blendwalker/
