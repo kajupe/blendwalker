@@ -15,7 +15,9 @@ has_toc: false
 Smaller tips on different parts of different workflows
 {: .fs-6 .fw-300 }
 
-## "Why do I need a workflow?"  
+---
+
+### "Why do I need a workflow?"  
 Efficiency. Would you rather take 6 months on a project or just a few weeks?  
 Think of is as a checklist. An order of operations that helps you build out your project efficiently, and with minimal backtracking.
 
