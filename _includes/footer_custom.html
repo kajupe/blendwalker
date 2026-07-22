@@ -1,5 +1,6 @@
 {% include author_footer.html %}
 
+<!-- Lightbox -->
 <script type="text/javascript">
     function initLightbox() {
         console.log("Lightbox Init");
@@ -30,3 +31,14 @@
         initLightbox();
     };
 </script>
+
+
+<!-- WIP Label -->
+ {% if page.is_wip == true %}
+<script>
+    let template = document.createElement("template");
+    template.innerHTML = '<div style="display: inline-block; background-color: #f63b3b38; color: #fff; padding: 0.5rem 1rem 0.4rem 1rem; text-align: center; border-radius: 1rem; font-size:0.75rem; font-weight:bold;">THIS PAGE IS A WORK IN PROGRESS</div>';
+    let wipElement = template.content.firstChild;
+    document.querySelector("#main-content").prepend(wipElement);
+</script>
+{% endif %}

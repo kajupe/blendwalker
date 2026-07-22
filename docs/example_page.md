@@ -46,6 +46,7 @@ You should specify:
 * **layout:** Just set it to `default`. The alternative is `minimal`, which omits the side-bar to the left.
 * **nav_order:** Pages with a higher value are sorted after pages with a lower value when they are siblings. Try to set this to a multiple of 10, so that if another page needs to be added between yours and the one beside it, there's still plenty of room before we need to change the nav_order value.
 * **authors:** Read about Authors [further down this page](#authors).
+* **is_wip:** If you write `is_wip: true`, a notice appears at the top of your page notifying readers that the page is not fully complete. Good to use in-development to communicate the status of your page.
 
 There are a lot of things beside that which you *could* specify, but those are the most important ones. For more details read the [Just The Docs] documentation.
 

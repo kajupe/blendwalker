@@ -6,6 +6,7 @@ layout: default
 nav_order: 10
 authors:
   - key: kaj
+is_wip: true
 ---
 
 # Compositing Fundamentals
