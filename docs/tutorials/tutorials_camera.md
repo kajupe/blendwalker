@@ -7,3 +7,7 @@ is_wip: true
 ---
 
 # Camerawork & Framing Tutorials
+Tutorials on how to make the camera better serve your shot.
+<br>
+
+{% include toc_with_authors.html %}

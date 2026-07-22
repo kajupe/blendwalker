@@ -7,3 +7,7 @@ is_wip: true
 ---
 
 # File Management Tutorials
+Tutorials for staying nice and organized!
+<br>
+
+{% include toc_with_authors.html %}
