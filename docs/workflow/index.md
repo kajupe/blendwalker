@@ -12,7 +12,7 @@ has_toc: false
 
 # Workflow 
 {: .fs-9 .no_toc }
-Samller tips on different parts of different workflows
+Smaller tips on different parts of different workflows
 {: .fs-6 .fw-300 }
 
 ## "Why do I need a workflow?"  
