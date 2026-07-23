@@ -8,33 +8,31 @@ authors:
     role: "Guide-Writer"
   - key: kaj
     role: "Editor"
+is_wip: true
 ---
 
 # Blender Basics
+{: .fs-9 .no_toc }
 How to navigate blender in a step by step tutorial, controls, pages, what things do, what are you looking at when you open things
+{: .fs-6 .fw-300 }
 
-Welcome to Blender Basics!
+---
 
-In this section, I will take you step by step in written and video format through the basics! 
-
+In this section, I will take you step by step in written and video format through the basics!  
 Take your time here and take a moment to *practice* these concepts. With practice comes muscle memory, which will allow you to create even faster!
 
 ## Basic Navigation and Movement
 
-Starting with where we left off in the previous section, "From Nothing to Something":
+Starting with where we left off in the previous section, "From Nothing to Something":  
+We have our WoL on screen, and we have their Rig in POSE MODE!
 
-- We have our WoL on screen, and we have their Rig in POSE MODE!
-
-A good start, but what does that even mean? And how do we even look around? 
-
-To start here is a VITAL note: YOUR CURSOR'S LOCATION ON THE SCREEN MATTERS.
-
-For example, pressing "N" can mean and do different things if your cursor is hovering over different sections of the screen, so keep that in mind!
+A good start, but what does that even mean? And how do we even look around?  
+To start here is a VITAL note: YOUR CURSOR'S LOCATION ON THE SCREEN MATTERS. For example, pressing "N" can mean and do different things if your cursor is hovering over different sections of the screen, so keep that in mind!
 
 Now for this section, let's figure out how to navigate the VIEWPORT; the main screen where you can see your model!
 
-* Zoom ⇒ Mouse Wheel Scroll 
 * Rotate around focus point ⇒ Hold Middle Mouse Button + Drag
+* Zoom ⇒ Mouse Wheel Scroll **OR** Alt + Middle Mouse Button + Drag
 * Pan the camera ⇒ Shift + Middle Mouse Button + Drag
 * Frame the Selected object ⇒ Numpad .
 

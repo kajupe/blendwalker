@@ -3,6 +3,7 @@ title: Finding Good Tutorials
 parent: Tutorials / Guides
 layout: default
 nav_order: 2
+has_toc: false
 is_wip: true
 ---
 
