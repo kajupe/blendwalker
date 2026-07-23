@@ -17,8 +17,8 @@ This page contains a collection of guides and tutorials for creating FFXIV-based
 🌱 A [beginner's guide](/docs/getting_started) to help you get started from scratch  
 📃 A [glossary](/docs/glossary) for looking up common terms you're unfamiliar with  
 📦 A collection of [resources](/docs/resources) like assets, references, and addons  
-📚 [Guides on all parts of the workflow](/docs/workflow) from the blockout stage to compositing  
-🌐 [Recommended external tutorials](/docs/tutorials) to help you learn even more  
+📚 [Guides and Tutorials](/docs/tutorials) by the community, and curated external ones  
+💌 [Tips](/docs/tips) on various parts of production, things that make you go "Oh I didn't know that!"
 
 And all of these things can expand thanks to contributions from the community! If there's something you think should be on here but isn't, [suggest or make it](/docs/contributing)!
 
