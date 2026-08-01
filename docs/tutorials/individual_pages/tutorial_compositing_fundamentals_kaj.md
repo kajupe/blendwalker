@@ -86,11 +86,29 @@ In Blender you can choose what gets exported where by setting up File Output nod
 
 
 ## Merging
-A / B
+<div style="overflow:auto;">
+<div style="float:right; width:48%; margin-left:1rem;">
+  <video controls autoplay loop style="display:block; width:100%; height:auto;">
+    <source src="../assets/compfund_merge.webm" type="video/webm">
+  </video>
+</div>
+<p style="margin-top:0;">Merging is how we add one image on top of another, or blend them together in various ways. In Blender there are two nodes for this (whereas there's usually only one in other compositing software), <b>Alpha Over</b> and <b>Mix</b>.</p>
+<p><b>Alpha Over</b> simply places a foreground image over a background image, based on the Alpha channel of the foreground. It's the same as just dragging one image on top of another in a layer-based program. <b>Mix</b> lets you select various blend modes like Screen, Add, Multiply, Color, etc.</p>
+<p>In the <b>Mix</b> node, the B input is the foreground and the A input is the background. This is the opposite in Nuke where B is your main input, and Fusion just labels the inputs with colors.</p>
+</div>
 
 
 ## Alpha
-Premult vs. Straight
+<div style="overflow:auto;">
+<div style="float:right; width:48%; margin-left:1rem;">
+  <video controls autoplay loop style="display:block; width:100%; height:auto;">
+    <source src="../assets/compfund_alpha.webm" type="video/webm">
+  </video>
+</div>
+<p style="margin-top:0;">An image usually consists of four channels: Red, Green, Blue and Alpha. Alpha is transparency. Where Alpha is 1 the image is fully opaque and where it is 0 the image is fully transparent. But even if the Alpha is 0 that doesn't mean what's in the RGB channels goes away.</p>
+<p>Blender will by default "Premultiply" or "Apply" your Alpha channel, so that you see what the image looks like when the Alpha is used as intended. The alternative is that your Alpha is "Straight".</p>
+<p>You won't need to think about this a lot in Blender specifically, but if you do compositing in other software it becomes very important to understand what effect your Alpha channel has on your image.</p>
+</div>
 
 
 ## Math
