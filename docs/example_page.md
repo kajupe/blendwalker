@@ -118,6 +118,9 @@ Please also note that links to assets (not websites) have to be relative to the 
 For example, to link to a page next to this one in the folder structure like `contributing.md`, the link should start with `./` to designate it's in the same folder as this file.  
 To link to a page in the assets folder, use `../assets/`, for example `../assets/branding/header.webp`. Going from this file in the `docs` directory, `../` takes us out into the root `blendwalker` folder, then from there we can navigate like usual. Into the assets folder, then the branding folder, then specifying the file.
 
+There's another way to make links to other pages too, like [this]({% link index.md %}).  
+This uses Liquid to create a link from the project root. It's the most robust way to make links especially when going to and from the main index.md page since that is outside of the `docs` folder. You can see them in use on that page.  
+This type of link has to direct to a page, not a folder, and must include the file's extension. If you make a mistake in formatting the link you'll notice easily because the console will start screaming at you.
 
 
 [Just The Docs]: https://just-the-docs.github.io/just-the-docs/
