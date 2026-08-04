@@ -112,9 +112,11 @@ In Blender you can choose what gets exported where by setting up File Output nod
 
 
 ## Math
-You can and should use it.  
-Numbers are in a 0-1 range.  
-Mask by selecting pixels with a value greater than .5?
+Images are just numbers, and we can do math on numbers. This can be incredibly useful once you start making the connection and learning which math operations are useful where.  
+Say for example you have two masks and only want an effect to happen where they overlap. In that case you can just multiply one mask by the other. In fact every operation you do in compositing is just various amounts of math, some of which is very simple to replicate. Complete desaturation for example can be done with this formula: `0.3 * R + 0.59 * G + 0.11 * B` (The different color channels are added with different weights based on how brightly our eyes percieve them)  
+You won't always use this but it's very good to know that you *can*, because it helps you realize that some things are possible that you wouldn't otherwise think of.
+
+Important to know when dealing with numbers in compositing is that we consider images to normally be in the range of 0-1. You might be used to 0-255, but that is not the case here, for various reasons and with various benefits.
 
 
 ## Color Spaces & Tone-mapping
