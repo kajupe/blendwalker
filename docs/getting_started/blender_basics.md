@@ -39,11 +39,11 @@ Now for this section, let's figure out how to navigate the VIEWPORT; the main sc
 {: .highlight }
 Keybinds and navigation methods can be adjusted in `Edit > Preferences > Keymap`. You might want to change keybinds like the Frame Selected one since it's one that's very handy to have easily accessible, especially if you don't have a Numpad.
 
-## (01 VIDEO HERE)
+<video src="assets/blenderbasics_fioh_review01.webm" type="video/webm" controls style="max-width:100%;"></video>
 
-These are the basic controls for you to navigate the viewport! 
+<br>
 
-Now, let's get into how to start posing your character!
+Those were the basic controls for you to navigate the viewport! Now, let's get into how to start posing your character!
 
 1. "Model" vs "Rig"
 2. Object Mode vs Pose Mode (Ctrl + Tab w/ Rig Selected)
@@ -51,10 +51,11 @@ Now, let's get into how to start posing your character!
 4. Rotate to Camera (R) vs Rotate on Gimbal (RR)
 5. Reset the Pose (Alt+G, Alt+R, Alt+S)
 
-## (02 VIDEO HERE)
+<video src="assets/blenderbasics_fioh_review02.webm" type="video/webm" controls style="max-width:100%;"></video>
 
-Practice these controls! Try out some poses!
-When you're ready, continue on to some more advanced controls!
+<br>
+
+Practice those controls! Try out some poses!<br>When you're ready, continue on to some more advanced controls:
 
 1. Advanced Posing Controls
 2. Locking Movements to Axis (X, Y, Z)
@@ -66,7 +67,9 @@ When you're ready, continue on to some more advanced controls!
 8. Skirt/Dress Bones
 9. Hiding the Overlays for a Cleaner Shot
 
-## (03 Video)
+<video src="assets/blenderbasics_fioh_review03.webm" type="video/webm" controls style="max-width:100%;"></video>
+
+<br>
 
 Now, let's go beyond just the character and explore Blender's other capabilities!
 
@@ -78,9 +81,11 @@ Now, let's go beyond just the character and explore Blender's other capabilities
 6. Object Duplication (Shift+D)
 7. Camera Setup and Positioning
 
-## (04 Video)
-Wild! At this point, you can actually render out a whole pose for your character!
+<video src="assets/blenderbasics_fioh_review04.webm" type="video/webm" controls style="max-width:100%;"></video>
 
+<br>
+
+Wild! At this point, you can actually render out a whole pose for your character!<br>
 Let's explore what this all looks like in an example session, while going over some other capabilities!
 
 1. Locking a Weapon to your hand/different bones.
@@ -89,7 +94,9 @@ Let's explore what this all looks like in an example session, while going over s
 4. Light Color Changing
 5. Importing Environments (Talk through, show later)
 
-## (05 Video)
+<video src="assets/blenderbasics_fioh_review05.webm" type="video/webm" controls style="max-width:100%;"></video>
+
+<br>
 
 Alrighty, say if we wanted to make an animation and then render it out, how is that done?
 
@@ -100,7 +107,9 @@ Alrighty, say if we wanted to make an animation and then render it out, how is t
 5. File Outputs
 6. Pros and Cons of PNG Sequence or MP4
 
-## (06 Video)
+<video src="assets/blenderbasics_fioh_review06.webm" type="video/webm" controls style="max-width:100%;"></video>
+
+<br>
 
 Let's say we wanna put him in an environment? How do we do that?
 
@@ -109,7 +118,12 @@ Let's say we wanna put him in an environment? How do we do that?
 3. Empties vs Meshes
 4. Outliner Organization and Collections
 
-## (07 Video)
+{: .note }
+This video is from an older guide, but nothing regarding these things has changed substantially since it was made. It will just feel a little different.
+
+<video src="assets/blenderbasics_fioh_review07.webm" type="video/webm" controls style="max-width:100%;"></video>
+
+<br>
 
 Next, we are going even further beyond!
 
@@ -121,7 +135,9 @@ Next, we are going even further beyond!
 6. Attaching a model to a new rig
 7. Consider, if you are making a video using an FF14 model, an FF14 Environment and an FF14 Animation, why use Blender? Is it easier than in-game? Does it look better?
 
-## (08 Video)
+<video src="assets/blenderbasics_fioh_review08.webm" type="video/webm" controls style="max-width:100%;"></video>
+
+<br>
 
 Incredible job! You have basically completed a project! You imported a character and environment, posed them, added in lighting and camera and rendered it out!
 
