@@ -39,7 +39,8 @@ Now for this section, let's figure out how to navigate the VIEWPORT; the main sc
 {: .highlight }
 Keybinds and navigation methods can be adjusted in `Edit > Preferences > Keymap`. You might want to change keybinds like the Frame Selected one since it's one that's very handy to have easily accessible, especially if you don't have a Numpad.
 
-<video src="assets/blenderbasics_fioh_review01.webm" type="video/webm" controls style="max-width:100%;"></video>
+<div style="padding:53.96% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1231891149?badge=0&amp;autopause=0&amp;player_id=0&amp;portrait=0&amp" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+<!-- <script src="https://player.vimeo.com/api/player.js"></script> -->
 
 <br>
 
@@ -51,7 +52,7 @@ Those were the basic controls for you to navigate the viewport! Now, let's get i
 4. Rotate to Camera (R) vs Rotate on Gimbal (RR)
 5. Reset the Pose (Alt+G, Alt+R, Alt+S)
 
-<video src="assets/blenderbasics_fioh_review02.webm" type="video/webm" controls style="max-width:100%;"></video>
+<div style="padding:53.96% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1231891140?badge=0&amp;autopause=0&amp;player_id=0&amp;portrait=0&amp" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
 
 <br>
 
@@ -67,7 +68,7 @@ Practice those controls! Try out some poses!<br>When you're ready, continue on t
 8. Skirt/Dress Bones
 9. Hiding the Overlays for a Cleaner Shot
 
-<video src="assets/blenderbasics_fioh_review03.webm" type="video/webm" controls style="max-width:100%;"></video>
+<div style="padding:53.96% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1231891135?badge=0&amp;autopause=0&amp;player_id=0&amp;portrait=0&amp" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
 
 <br>
 
@@ -81,7 +82,7 @@ Now, let's go beyond just the character and explore Blender's other capabilities
 6. Object Duplication (Shift+D)
 7. Camera Setup and Positioning
 
-<video src="assets/blenderbasics_fioh_review04.webm" type="video/webm" controls style="max-width:100%;"></video>
+<div style="padding:53.96% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1231891133?badge=0&amp;autopause=0&amp;player_id=0&amp;portrait=0&amp" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
 
 <br>
 
@@ -94,7 +95,7 @@ Let's explore what this all looks like in an example session, while going over s
 4. Light Color Changing
 5. Importing Environments (Talk through, show later)
 
-<video src="assets/blenderbasics_fioh_review05.webm" type="video/webm" controls style="max-width:100%;"></video>
+<div style="padding:53.96% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1231891122?badge=0&amp;autopause=0&amp;player_id=0&amp;portrait=0&amp" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
 
 <br>
 
@@ -107,7 +108,7 @@ Alrighty, say if we wanted to make an animation and then render it out, how is t
 5. File Outputs
 6. Pros and Cons of PNG Sequence or MP4
 
-<video src="assets/blenderbasics_fioh_review06.webm" type="video/webm" controls style="max-width:100%;"></video>
+<div style="padding:53.96% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1231891120?badge=0&amp;autopause=0&amp;player_id=0&amp;portrait=0&amp" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
 
 <br>
 
@@ -121,7 +122,7 @@ Let's say we wanna put him in an environment? How do we do that?
 {: .note }
 This video is from an older guide, but nothing regarding these things has changed substantially since it was made. It will just feel a little different.
 
-<video src="assets/blenderbasics_fioh_review07.webm" type="video/webm" controls style="max-width:100%;"></video>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1231891119?badge=0&amp;autopause=0&amp;player_id=0&amp;portrait=0&amp" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
 
 <br>
 
@@ -135,7 +136,7 @@ Next, we are going even further beyond!
 6. Attaching a model to a new rig
 7. Consider, if you are making a video using an FF14 model, an FF14 Environment and an FF14 Animation, why use Blender? Is it easier than in-game? Does it look better?
 
-<video src="assets/blenderbasics_fioh_review08.webm" type="video/webm" controls style="max-width:100%;"></video>
+<div style="padding:53.96% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1231891121?badge=0&amp;autopause=0&amp;player_id=0&amp;portrait=0&amp" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
 
 <br>
 
