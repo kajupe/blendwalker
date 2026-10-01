@@ -28,9 +28,15 @@ kaj:
 fioh:
   name: "Fioh Sion"
   avatar: "/assets/authors/fioh.webp"
-  bio: "Temp"
+  bio: "Hey, y'all! Fioh here! Animator with several years of self-taught experience, and self-proclaimed expert of \"Animating on a time-budget\". Here to help answer any questions!"
   links:
+    - label: "YouTube"
+      url: "https://www.youtube.com/@FiohSion"
     - label: "Bluesky"
       url: "https://bsky.app/profile/fiohsion.bsky.social"
+    - label: "VGen"
+      url: "https://vgen.co/FiohSion"
     - label: "Email"
-      url: "mailto:fioh.sion.ffxiv@gmail.com"
+      url: "mailto:fioh.animation.studios@gmail.com"
+    - label: "Twitter"
+      url: "https://x.com/FiohSion"
