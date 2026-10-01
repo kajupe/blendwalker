@@ -8,7 +8,6 @@ authors:
     role: "Guide-Writer"
   - key: kaj
     role: "Editor"
-is_wip: true
 ---
 
 # Blender Basics
