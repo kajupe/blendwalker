@@ -1,2 +1,15 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+<!-- This generates a little css line that sets the opacity to 0.5 for pages in the sidebar that are tagged as is_wip -->
+{% assign wip_pages = site.pages | where: "is_wip", true %}
+{% if wip_pages.size > 0 %}
+<style>
+  {% for p in wip_pages %}
+  .site-nav a[href="{{ p.url | relative_url }}"]{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  {
+    opacity: 0.5;
+  }
+</style>
+{% endif %}

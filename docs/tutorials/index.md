@@ -2,7 +2,6 @@
 title: Tutorials / Guides
 layout: default
 nav_order: 30
-is_wip: true
 ---
 
 # Tutorials / Guides
