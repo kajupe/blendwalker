@@ -106,7 +106,7 @@ Clicking on an Author will take you to their entry in the [About Us](./about_us)
 # Links
 Links are pretty neat and really easy.  
 [Here's a link to an external website](https://http.cat/)  
-If you want to re-use [rickroll] the same link in [rickroll] multiple places you [rickroll] can do it like [rickroll] this!  
+If you want to re-use [rickroll] the same link in [rickroll] multiple places you [rickroll] can do it like [rickroll] this! (The URL is defined below)  
 Here's how to link to a [specific header](#text)  
 Here's how to link to a [specific header on another page](./contributing#make-something)  
 It's important to note that you shouldn't include the file extension of pages you link to, because while they might me `.md` now they'll be converted to `.html` later.  
