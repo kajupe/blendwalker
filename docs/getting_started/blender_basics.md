@@ -143,6 +143,5 @@ Incredible job! You have basically completed a project! You imported a character
 
 Remember these fundamentals, but this won't be all you need. 
 
-Before you move on! Take a read through the "Start a Project" Section immediately, before doing anything else. 
-
+Before you move on! Take a read through the [Start (and Finish) a Project]({% link docs/getting_started/project_management.md %}) page immediately, before doing anything else.  
 This will help you prepare for what's next and help you avoid stagnation, especially after you put in all this work already.
