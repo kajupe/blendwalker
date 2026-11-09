@@ -34,7 +34,7 @@ Meddle Tools also comes with materials that aim to replicate the look of in-game
 </div>
 AetherBlend is the main addon you'll use for importing and rigging characters. It features a few panels for importing, applying Customize+ scaling to, rigging and animating characters.  
 Upon import it can also apply optional features like a custom eye material or using [FFGear](#ffgear) materials.  
-[GitHub Repo & Installation Guide](https://github.com/ShinoMythmaker/Aetherblend)
+[GitHub Repo](https://github.com/ShinoMythmaker/Aetherblend) | [Website w/ Installation Guide](https://aetherblend.mythmaker-studio.com/index.html)
 
 ## FFGear
 <div class="custom-tags">

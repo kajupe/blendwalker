@@ -77,7 +77,7 @@ If Blender was RECENTLY updated, then the tools we use *may* need to be updated 
 
 ### AETHERBLEND
 AetherBlend is a BLENDER add-on that you will use to import the files you exported from the game via Meddle!  
-Open Blender and follow instructions here to install AetherBlend: [AetherBlend Installation Guide](https://github.com/ShinoMythmaker/Aetherblend/wiki/Installation)
+Open Blender and follow instructions here to install AetherBlend: [AetherBlend Installation Guide](https://aetherblend.mythmaker-studio.com/installation.html)
 
 {: .highlight }
 It is mentioned in the instructions, but ensure that Rigify (an add-on that is INCLUDED in Blender) is also enabled for AetherBlend to work!
