@@ -6,7 +6,6 @@ layout: default
 nav_order: 10
 authors:
   - key: kaj
-is_wip: true
 ---
 
 # Compositing Fundamentals
@@ -30,6 +29,7 @@ This will not teach you how to make a specific effect or something like that, ra
 
 {: .warning }
 The information in some of these sections can be very dense. If you find yourself not understanding something, don't worry. Take your time when reading and try to just go sentence by sentence. Look stuff up if you need to, or just move on and try to learn by doing later on. You can always come back to this.
+
 
 
 ## Render Passes
@@ -98,6 +98,7 @@ In Blender you can choose what gets exported where by setting up File Output nod
 </div>
 
 
+
 ## Alpha
 <div style="overflow:auto;">
 <div style="float:right; width:48%; margin-left:1rem;">
@@ -111,6 +112,7 @@ In Blender you can choose what gets exported where by setting up File Output nod
 </div>
 
 
+
 ## Math
 Images are just numbers, and we can do math on numbers. This can be incredibly useful once you start making the connection and learning which math operations are useful where.  
 Say for example you have two masks and only want an effect to happen where they overlap. In that case you can just multiply one mask by the other. In fact every operation you do in compositing is just various amounts of math, some of which is very simple to replicate. Complete desaturation for example can be done with this formula: `0.3 * R + 0.59 * G + 0.11 * B` (The different color channels are added with different weights based on how brightly our eyes percieve them)  
@@ -119,5 +121,32 @@ You won't always use this but it's very good to know that you *can*, because it 
 Important to know when dealing with numbers in compositing is that we consider images to normally be in the range of 0-1. You might be used to 0-255, but that is not the case here, for various reasons and with various benefits.
 
 
-## Color Spaces & Tone-mapping
-Working Color-space is what your math happens in
+
+## Color Spaces & Tonemapping
+Color Spaces as a whole is a very deep topic and I do not have the knowledge to properly explain all of it. However, I can explain the things we'll most commonly care about when compositing.
+
+Like we covered before, all compositing is just math. But the computer needs to know how to interpret the numbers in your image, before it can do proper math on them. To do this, we convert from the **Image's Color Space** to the **Working Color Space**. The Working color space should have linear gamma, which means that the values haven't been brightened to make them more pleasing to human eyes.
+
+If you open Blender and go to your `Render Properties > Color Management` and set your `View` from "Standard" to "Raw", what you're seeing now is linear gamma. "Standard" is convering what you see from the working color space to sRGB which has gamma 2.2, and is what almost every monitor uses.
+
+Here's the difference between linear/Raw (shown at the bottom), and sRGB/Standard with gamma 2.2 (shown at the top).  
+Linear is what your computer wants to work with, sRGB is what you want to display on your screen.  
+<img src="../assets/compfund_gamma.webp" max-width="100%" style="margin-top:0.75rem;">
+
+{: .highlight }
+> That's a lot to take in at once if you've never heard of it, and it can sound very scary. So let me reassure you of some things:
+> - **This is usually not something you even have to think about.** Your software handles most of it in the background.
+> - Converting between color spaces is really simple.
+
+For the purposes of this tutorial, we only really care about converting between color spaces to do tonemapping.  
+
+### Tonemapping
+Tonemapping, in very simple terms, is the act of "compressing" the really bright values of an image so they fit into our final 8-bit image. In Blender you may be familiar with "Filmic" or "AgX", which are tonemappers! But we can have better control of *how* and *when* they are applied in compositing.  
+<img src="../assets/compfund_tonemapping.webp" max-width="100%" style="margin-top:0.75rem;">
+In this example I applied AgX by converting from the Working Space (which is what the compositor uses in the background) to AgX sRGB, using a "Convert Colorspace" node. Then we convert from sRGB back to the Working Space, which undoes the gamma-adjustment (because it's what the compsitor expects), but it keeps the effects of the AgX tonemapper.
+
+However, I think that AgX looks too flat by default. The highlights that are meant to be a bit overexposed look gray, and the colors are muted. To compensate for this, I blend the image with itself using the Screen blend-mode, which prevents it from clipping but brightens the image a good bit. I also increase the saturation in areas that lack it (called Color Boost), with another simple node setup. Comparing the first and last images, we see that the image still looks very bright and colorful, but we've retained details in the floor and some color information in the brightest parts of the glass.
+
+### External Files
+You might add an image to your compositing setup, and it looks wrong. Too dark, or too bright. In that case, check that the color space is right. For most images like PNG or JPG, things you get from the internet, they'll be in sRGB. EXR files are usually in some linear color space already, like Rec.709, Rec.2020 or ACEScg.  
+In Blender's compositor, you can select the input color space on the node itself.
