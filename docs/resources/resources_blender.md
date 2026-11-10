@@ -8,9 +8,9 @@ nav_order: 10
 # Blender Tools
 {: .no_toc }
 These are additions to Blender that will make it easier to work with FFXIV rigs, materials, or models.
+{: .fs-6 .fw-300 }
 
-- TOC
-{:toc}
+---
 
 ## FFXIV Blender Plugins Master Repository
 <div class="custom-tags">

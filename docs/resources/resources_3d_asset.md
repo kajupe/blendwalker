@@ -8,9 +8,9 @@ nav_order: 30
 # 3D Assets
 {: .no_toc }
 Various 3D assets like Models, Materials, Effects, etc.
+{: .fs-6 .fw-300 }
 
-- TOC
-{:toc}
+---
 
 ## Poly Haven
 <div class="custom-tags">

@@ -8,9 +8,9 @@ nav_order: 40
 # References
 {: .no_toc }
 References for Poses, Movement, etc.
+{: .fs-6 .fw-300 }
 
-- TOC
-{:toc}
+---
 
 ## TrueRef
 <div class="custom-tags">

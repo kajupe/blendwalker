@@ -7,10 +7,10 @@ nav_order: 20
 
 # FFXIV Tools
 {: .no_toc }
-Things we use in FFXIV to get assets out of FFXIV and into Blender instead
+Things we use in FFXIV to get assets out of the game.
+{: .fs-6 .fw-300 }
 
-- TOC
-{:toc}
+---
 
 ## XIVLauncher & Dalamud
 <div class="custom-tags">
