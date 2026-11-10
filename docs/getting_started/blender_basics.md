@@ -119,7 +119,8 @@ Let's say we wanna put him in an environment? How do we do that?
 4. Outliner Organization and Collections
 
 {: .note }
-This video is from an older guide, but nothing regarding these things has changed substantially since it was made. It will just feel a little different.
+> This video is from an older guide, but nothing regarding these things has changed substantially since it was made. It will just feel a little different.  
+> Also, Fioh will mention "MekTools", which is just the predecessor to AetherBlend, so you can safely ignore that.
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1231891119?badge=0&amp;autopause=0&amp;player_id=0&amp;portrait=0&amp" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
 
